@@ -86,4 +86,12 @@ public class HomePage extends BasePage {
         click(image);
         return new ImagesPage(driver);
     }
+
+
+    @FindBy(xpath = "//a[contains(text(),'File Upload')]")
+    WebElement fileUpload;
+    public FileUploadPage selectFileUpload() {
+        click(fileUpload);
+        return new FileUploadPage(driver);
+    }
 }
