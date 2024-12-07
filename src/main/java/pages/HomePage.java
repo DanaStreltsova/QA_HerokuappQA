@@ -7,10 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import pages.alertsFrameWindows.AlertsPage;
-import pages.alertsFrameWindows.DropDownPage;
-import pages.alertsFrameWindows.FramePage;
-import pages.alertsFrameWindows.MultipleWindowsPage;
+import pages.alertsFrameWindows.*;
 
 public class HomePage extends BasePage {
 
@@ -50,4 +47,27 @@ public class HomePage extends BasePage {
         return new DropDownPage(driver);
     }
 
+
+    @FindBy(css = "[href='/horizontal_slider']")
+    WebElement slider;
+    public HorizontalSliderPage getSlider() {
+        click(slider);
+        return new HorizontalSliderPage(driver);
+    }
+
+
+    @FindBy(xpath ="//a[contains(text(),'Drag and Drop')]" )
+    WebElement dragDrop;
+    public DragAndDropPage getDragAndDrop() {
+         click(dragDrop);
+        return new DragAndDropPage(driver);
+    }
+
+    @FindBy(xpath = "//a[contains(text(),'Hovers')]")
+    WebElement hover;
+
+    public HoversPage getHovers() {
+        click(hover);
+        return new HoversPage(driver);
+    }
 }
