@@ -70,4 +70,20 @@ public class HomePage extends BasePage {
         click(hover);
         return new HoversPage(driver);
     }
+
+    @FindBy(css = "[href='/redirector']")
+    WebElement redirectLink;
+
+    public RedirectLinkPage selectRedirectLink() {
+        click(redirectLink);
+        return new RedirectLinkPage(driver);
+    }
+
+    @FindBy(xpath = "//a[contains(text(),'Broken Images')]")
+    WebElement image;
+
+    public ImagesPage selectBrockenImages() {
+        click(image);
+        return new ImagesPage(driver);
+    }
 }
