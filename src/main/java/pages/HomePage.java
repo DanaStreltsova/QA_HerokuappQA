@@ -1,13 +1,16 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
-import pages.alertsFrameWindows.*;
+import pages.alertFrameWindows.AlertsPage;
+import pages.alertFrameWindows.FramePage;
+import pages.elements.*;
+import pages.forms.FileUploadPage;
+import pages.interactions.DragAndDropPage;
+import pages.interactions.DropDownPage;
+import pages.wigets.HorizontalSliderPage;
+import pages.wigets.HoversPage;
 
 public class HomePage extends BasePage {
 

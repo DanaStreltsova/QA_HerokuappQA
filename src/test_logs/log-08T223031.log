@@ -1,0 +1,22 @@
+22:30:32.786 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+22:30:38.275 [main] INFO  tasts.TestBase - Start test: dragAndDropTest
+22:30:38.313 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Drag and Drop')]
+22:30:38.313 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:38.379 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //a[contains(text(),'Drag and Drop')]
+22:30:38.379 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:38.774 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - The locator will findBy.xpath: //div[@id='column-a']
+22:30:38.775 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:38.829 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - The locator isBy.xpath: //div[@id='column-a']
+22:30:38.830 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:38.831 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - The locator will findBy.xpath: //div[@id='column-b']
+22:30:38.831 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:38.879 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - The locator isBy.xpath: //div[@id='column-b']
+22:30:38.879 [Forwarding actions on session 08102e27fd48a2dd4b37794d9f5d557c to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:39.161 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //div[@id='column-a']
+22:30:39.161 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:39.203 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //div[@id='column-a']
+22:30:39.203 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:39.231 [main] INFO  tasts.TestBase - Test result : PASSED dragAndDropTest
+22:30:39.232 [main] INFO  tasts.TestBase - ********************************************************************

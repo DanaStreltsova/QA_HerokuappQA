@@ -1,0 +1,42 @@
+22:40:45.352 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+22:40:50.988 [main] INFO  tasts.TestBase - Start test: sliderTest
+22:40:51.019 [main] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: [href='/horizontal_slider']
+22:40:51.019 [main] INFO  pages.utils.MyListener - *********************************************
+22:40:51.068 [main] INFO  pages.utils.MyListener - The locator isBy.cssSelector: [href='/horizontal_slider']
+22:40:51.068 [main] INFO  pages.utils.MyListener - *********************************************
+22:40:52.492 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - The locator will findBy.tagName: inpu
+22:40:52.492 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - *********************************************
+22:41:02.524 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - The test have a problem
+22:41:02.525 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - *********************************************
+22:41:02.525 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - Method -->findElement
+22:41:02.525 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - *********************************************
+22:41:02.528 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - Target exception-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"inpu"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca0cfb63269dcda019c7022aca15a99d, findElement {value=inpu, using=tag name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\strel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49994/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca0cfb63269dcda019c7022aca15a99d
+22:41:02.528 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - *********************************************
+22:41:02.528 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - Object target -->ChromeDriver: chrome on windows (ca0cfb63269dcda019c7022aca15a99d)
+22:41:02.528 [Forwarding actions on session ca0cfb63269dcda019c7022aca15a99d to remote] INFO  pages.utils.MyListener - *********************************************
+22:41:02.732 [main] INFO  pages.utils.MyListener - The test have a problem
+22:41:02.732 [main] INFO  pages.utils.MyListener - *********************************************
+22:41:02.732 [main] INFO  pages.utils.MyListener - Method -->perform
+22:41:02.732 [main] INFO  pages.utils.MyListener - *********************************************
+22:41:02.732 [main] INFO  pages.utils.MyListener - Target exception-->org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca0cfb63269dcda019c7022aca15a99d, actions {actions=[org.openqa.selenium.interactions.Sequence@7ec58feb]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\strel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49994/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca0cfb63269dcda019c7022aca15a99d
+22:41:02.732 [main] INFO  pages.utils.MyListener - *********************************************
+22:41:02.733 [main] INFO  pages.utils.MyListener - Object target -->ChromeDriver: chrome on windows (ca0cfb63269dcda019c7022aca15a99d)
+22:41:02.733 [main] INFO  pages.utils.MyListener - *********************************************
+22:41:02.924 [main] ERROR tasts.TestBase - Test result : FAILED sliderTest
+22:41:02.924 [main] INFO  tasts.TestBase - ********************************************************************

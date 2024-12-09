@@ -1,0 +1,18 @@
+22:29:55.236 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+22:30:00.795 [main] INFO  tasts.TestBase - Start test: hoversTest
+22:30:00.827 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Hovers')]
+22:30:00.827 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:00.881 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //a[contains(text(),'Hovers')]
+22:30:00.881 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:02.306 [Forwarding actions on session 190d0dc787901fa2df1d3d906d54dd82 to remote] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: .figure:nth-child(3)
+22:30:02.307 [Forwarding actions on session 190d0dc787901fa2df1d3d906d54dd82 to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:02.347 [Forwarding actions on session 190d0dc787901fa2df1d3d906d54dd82 to remote] INFO  pages.utils.MyListener - The locator isBy.cssSelector: .figure:nth-child(3)
+22:30:02.348 [Forwarding actions on session 190d0dc787901fa2df1d3d906d54dd82 to remote] INFO  pages.utils.MyListener - *********************************************
+22:30:02.486 [main] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: h5
+22:30:02.486 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:02.535 [main] INFO  pages.utils.MyListener - The locator isBy.cssSelector: h5
+22:30:02.535 [main] INFO  pages.utils.MyListener - *********************************************
+22:30:02.566 [main] INFO  tasts.TestBase - Test result : PASSED hoversTest
+22:30:02.567 [main] INFO  tasts.TestBase - ********************************************************************
