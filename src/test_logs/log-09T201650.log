@@ -1,0 +1,50 @@
+20:16:51.815 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+20:16:59.552 [main] INFO  tasts.TestBase - Start test: brokenImagesTest
+20:16:59.622 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Broken Images')]
+20:16:59.622 [main] INFO  pages.utils.MyListener - *********************************************
+20:16:59.691 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //a[contains(text(),'Broken Images')]
+20:16:59.691 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.313 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:00.313 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.567 [main] INFO  pages.utils.MyListener - List size is4
+20:17:00.567 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.567 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:00.567 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.719 [main] INFO  pages.utils.MyListener - List size is4
+20:17:00.719 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.719 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:00.719 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.832 [main] INFO  pages.utils.MyListener - List size is4
+20:17:00.832 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.865 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:00.865 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.949 [main] INFO  pages.utils.MyListener - List size is4
+20:17:00.949 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:00.949 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:00.949 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.063 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.063 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.088 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:01.088 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.163 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.163 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.163 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:01.163 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.256 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.256 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.276 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:01.276 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.342 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.342 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.342 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:01.342 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.445 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.445 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.459 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: img
+20:17:01.459 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.520 [main] INFO  pages.utils.MyListener - List size is4
+20:17:01.521 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:01.521 [main] INFO  tasts.TestBase - Test result : PASSED brokenImagesTest
+20:17:01.521 [main] INFO  tasts.TestBase - ********************************************************************

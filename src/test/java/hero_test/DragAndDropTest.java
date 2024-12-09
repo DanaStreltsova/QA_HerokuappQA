@@ -1,4 +1,4 @@
-package tasts.interactions;
+package hero_test;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

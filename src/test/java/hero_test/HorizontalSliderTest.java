@@ -1,4 +1,4 @@
-package tasts.wigets;
+package hero_test;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,6 +16,6 @@ public class HorizontalSliderTest extends TestBase {
     @Test
     public void sliderTest(){
         new HorizontalSliderPage(driver).moveSliderInHorizontalDirection()
-                .verifySliderValue("0");
+                .verifySliderValue("5");
     }
 }

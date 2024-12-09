@@ -47,19 +47,7 @@ public class RedirectLinkPage extends BasePage {
         return this;
     }
 
-    private void verifyLinks(String url) {
-        try {
-            URL linkUrl = new URL(url);
-
-            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
-            connection.setConnectTimeout(5000);
-            if (connection.getResponseCode() >= 400) {
-                System.out.println(url + "-" + connection.getResponseMessage() + "is a broken link");
-            } else {
-                System.out.println(url + "-" + connection.getResponseMessage());
-            }
-        } catch (Exception e) {
-            System.out.println(url + "-" + e.getMessage() + "Error occurred");
-        }
+    public void verifyLinks(String url) {
+        super.verifyLinks(url);
     }
 }

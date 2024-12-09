@@ -1,0 +1,22 @@
+20:26:44.333 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+20:26:50.726 [main] INFO  tasts.TestBase - Start test: fileUploadTest
+20:26:50.751 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'File Upload')]
+20:26:50.751 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:50.823 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //a[contains(text(),'File Upload')]
+20:26:50.823 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:51.305 [main] INFO  pages.utils.MyListener - The locator will findBy.id: file-upload
+20:26:51.305 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:51.368 [main] INFO  pages.utils.MyListener - The locator isBy.id: file-upload
+20:26:51.368 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:51.453 [main] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: #file-submit
+20:26:51.453 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:51.505 [main] INFO  pages.utils.MyListener - The locator isBy.cssSelector: #file-submit
+20:26:51.505 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:52.245 [main] INFO  pages.utils.MyListener - The locator will findBy.tagName: h3
+20:26:52.246 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:52.303 [main] INFO  pages.utils.MyListener - The locator isBy.tagName: h3
+20:26:52.303 [main] INFO  pages.utils.MyListener - *********************************************
+20:26:52.369 [main] INFO  tasts.TestBase - Test result : PASSED fileUploadTest
+20:26:52.369 [main] INFO  tasts.TestBase - ********************************************************************

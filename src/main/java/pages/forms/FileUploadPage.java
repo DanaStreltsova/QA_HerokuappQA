@@ -23,11 +23,21 @@ public class FileUploadPage extends BasePage {
     @FindBy(id = "file-submit")
     WebElement fileSubmit;
 
+
+
+
+    @FindBy(css = "#file-submit")
+    WebElement submit;
+
+    public FileUploadPage clickUplod() {
+        click(submit);
+        return this;
+    }
+
     @FindBy(tagName = "h3")
     WebElement uploadedFile;
-
     public FileUploadPage verifyUploadFile() {
-        Assert.assertTrue(uploadedFile.isDisplayed());
+        Assert.assertTrue(uploadedFile.isDisplayed(),"File Uploaded!");
         return this;
     }
 }

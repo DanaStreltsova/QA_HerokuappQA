@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hero" verbose="1">
+    <test name="Hero">
+        <classes>
+
+            <class name="hero_test.FileUploadTest"/>
+            <class name="hero_test.RedirectLinkTest"/>
+
+        </classes>mvn clean test
+    </test>
+</suite>

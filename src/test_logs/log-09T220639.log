@@ -1,0 +1,18 @@
+22:06:41.409 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+22:06:55.103 [main] INFO  tasts.TestBase - Start test: sliderTest
+22:06:55.162 [main] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: [href='/horizontal_slider']
+22:06:55.163 [main] INFO  pages.utils.MyListener - *********************************************
+22:06:55.237 [main] INFO  pages.utils.MyListener - The locator isBy.cssSelector: [href='/horizontal_slider']
+22:06:55.237 [main] INFO  pages.utils.MyListener - *********************************************
+22:06:56.903 [Forwarding actions on session c99abe7a4b5f980b77816aac38b3c032 to remote] INFO  pages.utils.MyListener - The locator will findBy.tagName: input
+22:06:56.903 [Forwarding actions on session c99abe7a4b5f980b77816aac38b3c032 to remote] INFO  pages.utils.MyListener - *********************************************
+22:06:56.970 [Forwarding actions on session c99abe7a4b5f980b77816aac38b3c032 to remote] INFO  pages.utils.MyListener - The locator isBy.tagName: input
+22:06:56.970 [Forwarding actions on session c99abe7a4b5f980b77816aac38b3c032 to remote] INFO  pages.utils.MyListener - *********************************************
+22:06:57.406 [main] INFO  pages.utils.MyListener - The locator will findBy.id: range
+22:06:57.406 [main] INFO  pages.utils.MyListener - *********************************************
+22:06:57.466 [main] INFO  pages.utils.MyListener - The locator isBy.id: range
+22:06:57.466 [main] INFO  pages.utils.MyListener - *********************************************
+22:06:57.512 [main] INFO  tasts.TestBase - Test result : PASSED sliderTest
+22:06:57.512 [main] INFO  tasts.TestBase - ********************************************************************

@@ -1,0 +1,74 @@
+20:17:19.190 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\strel\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+20:17:25.514 [main] INFO  tasts.TestBase - Start test: checkBrokenLinks
+20:17:25.547 [main] INFO  pages.utils.MyListener - The locator will findBy.cssSelector: [href='/redirector']
+20:17:25.547 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:25.631 [main] INFO  pages.utils.MyListener - The locator isBy.cssSelector: [href='/redirector']
+20:17:25.631 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:26.054 [main] INFO  pages.utils.MyListener - The locator will findBy.xpath: //a[@id='redirect']
+20:17:26.056 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:26.137 [main] INFO  pages.utils.MyListener - The locator isBy.xpath: //a[@id='redirect']
+20:17:26.137 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:26.657 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:26.657 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:26.969 [main] INFO  pages.utils.MyListener - List size is7
+20:17:26.969 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:26.978 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:26.978 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:27.169 [main] INFO  pages.utils.MyListener - List size is7
+20:17:27.169 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:28.549 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:28.549 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:28.757 [main] INFO  pages.utils.MyListener - List size is7
+20:17:28.757 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:28.757 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:28.759 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:28.872 [main] INFO  pages.utils.MyListener - List size is7
+20:17:28.872 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.256 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.256 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.464 [main] INFO  pages.utils.MyListener - List size is7
+20:17:29.464 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.464 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.464 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.582 [main] INFO  pages.utils.MyListener - List size is7
+20:17:29.582 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.612 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.612 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.719 [main] INFO  pages.utils.MyListener - List size is7
+20:17:29.719 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.735 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.735 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.830 [main] INFO  pages.utils.MyListener - List size is7
+20:17:29.830 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.858 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.858 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.951 [main] INFO  pages.utils.MyListener - List size is7
+20:17:29.951 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:29.951 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:29.951 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.048 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.048 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.099 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:30.099 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.186 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.186 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.186 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:30.186 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.297 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.297 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.330 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:30.330 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.421 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.421 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.421 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:30.421 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.555 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.555 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.820 [main] INFO  pages.utils.MyListener - Befor fine elementsBy.cssSelector: a
+20:17:30.820 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.917 [main] INFO  pages.utils.MyListener - List size is7
+20:17:30.917 [main] INFO  pages.utils.MyListener - *********************************************
+20:17:30.929 [main] INFO  tasts.TestBase - Test result : PASSED checkBrokenLinks
+20:17:30.929 [main] INFO  tasts.TestBase - ********************************************************************

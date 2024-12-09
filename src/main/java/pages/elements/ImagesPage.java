@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
 
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.List;
 
 public class ImagesPage extends BasePage {
@@ -39,22 +37,6 @@ public class ImagesPage extends BasePage {
         }
 
         return this;
-    }
-
-    private void verifyLinks(String imageURL) {
-        try {
-            URL linkUrl = new URL(imageURL);
-
-            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
-            connection.setConnectTimeout(5000);
-            if (connection.getResponseCode() >= 400) {
-                System.out.println(imageURL + "-" + connection.getResponseMessage() + "is a broken link");
-            } else {
-                System.out.println(imageURL + "-" + connection.getResponseMessage());
-            }
-        } catch (Exception e) {
-            System.out.println(imageURL + "-" + e.getMessage() + "Error occurred");
-        }
     }
 
 }

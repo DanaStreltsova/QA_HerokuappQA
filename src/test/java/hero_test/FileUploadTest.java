@@ -1,4 +1,4 @@
-package tasts.forms;
+package hero_test;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,6 +17,7 @@ public class FileUploadTest extends TestBase {
     public void fileUploadTest(){
         new FileUploadPage(driver)
                 .uploadFile("C:/Users/strel/Downloads/мару1.jpg")
+                .clickUplod()
                 .verifyUploadFile()
         ;
     }

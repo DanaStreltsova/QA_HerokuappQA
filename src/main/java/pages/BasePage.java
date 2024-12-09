@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.Duration;
 
 public class BasePage {
@@ -70,6 +72,21 @@ public class BasePage {
     }
 
 
+    public void verifyLinks(String imageURL) {
+        try {
+            URL linkUrl = new URL(imageURL);
+
+            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
+            connection.setConnectTimeout(5000);
+            if (connection.getResponseCode() >= 400) {
+                System.out.println(imageURL + "-" + connection.getResponseMessage() + "is a broken link");
+            } else {
+                System.out.println(imageURL + "-" + connection.getResponseMessage());
+            }
+        } catch (Exception e) {
+            System.out.println(imageURL + "-" + e.getMessage() + "Error occurred");
+        }
+    }
 }
 
 
