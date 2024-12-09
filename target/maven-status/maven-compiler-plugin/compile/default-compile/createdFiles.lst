@@ -1,0 +1,15 @@
+pages\BasePage.class
+pages\interactions\DropDownPage.class
+pages\utils\MyListener.class
+pages\HomePage.class
+pages\alertFrameWindows\AlertsPage.class
+pages\elements\ImagesPage.class
+pages\utils\DataProviders.class
+pages\forms\FileUploadPage.class
+pages\alertFrameWindows\FramePage.class
+pages\interactions\DragAndDropPage.class
+pages\elements\RedirectLinkPage.class
+pages\config\ApplicationManager.class
+pages\wigets\HorizontalSliderPage.class
+pages\wigets\HoversPage.class
+pages\alertFrameWindows\MultipleWindowsPage.class

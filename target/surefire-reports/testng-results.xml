@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T22:38:57 CET" name="Hero" finished-at="2024-12-09T22:39:21 CET" duration-ms="23870">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T22:38:57 CET" name="Hero" finished-at="2024-12-09T22:39:21 CET" duration-ms="23870">
+      <class name="hero_test.FileUploadTest">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:hero_test.FileUploadTest@77eca502]" started-at="2024-12-09T22:38:57 CET" name="init" finished-at="2024-12-09T22:39:03 CET" duration-ms="5884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hero_test.FileUploadTest.fileUploadTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:hero_test.FileUploadTest@77eca502]" started-at="2024-12-09T22:39:03 CET" name="precondition" finished-at="2024-12-09T22:39:04 CET" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="fileUploadTest()[pri:0, instance:hero_test.FileUploadTest@77eca502]" started-at="2024-12-09T22:39:04 CET" name="fileUploadTest" finished-at="2024-12-09T22:39:05 CET" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:hero_test.FileUploadTest@77eca502]" started-at="2024-12-09T22:39:05 CET" name="tearDown" finished-at="2024-12-09T22:39:05 CET" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fileUploadTest status=SUCCESS method=FileUploadTest.fileUploadTest()[pri:0, instance:hero_test.FileUploadTest@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hero_test.FileUploadTest -->
+      <class name="hero_test.RedirectLinkTest">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:05 CET" name="init" finished-at="2024-12-09T22:39:09 CET" duration-ms="4567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hero_test.RedirectLinkTest.checkAllLinksTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:09 CET" name="precondition" finished-at="2024-12-09T22:39:10 CET" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="checkAllLinksTest()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:10 CET" name="checkAllLinksTest" finished-at="2024-12-09T22:39:11 CET" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllLinksTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:11 CET" name="tearDown" finished-at="2024-12-09T22:39:11 CET" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAllLinksTest status=SUCCESS method=RedirectLinkTest.checkAllLinksTest()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:11 CET" name="init" finished-at="2024-12-09T22:39:15 CET" duration-ms="4387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hero_test.RedirectLinkTest.checkBrokenLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:15 CET" name="precondition" finished-at="2024-12-09T22:39:16 CET" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="checkBrokenLinks()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:16 CET" name="checkBrokenLinks" finished-at="2024-12-09T22:39:20 CET" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinks -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:hero_test.RedirectLinkTest@793be5ca]" started-at="2024-12-09T22:39:20 CET" name="tearDown" finished-at="2024-12-09T22:39:21 CET" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBrokenLinks status=SUCCESS method=RedirectLinkTest.checkBrokenLinks()[pri:0, instance:hero_test.RedirectLinkTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hero_test.RedirectLinkTest -->
+    </test> <!-- Hero -->
+  </suite> <!-- Hero -->
+</testng-results>

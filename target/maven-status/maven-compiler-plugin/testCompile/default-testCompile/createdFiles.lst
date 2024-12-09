@@ -1,0 +1,11 @@
+hero_test\RedirectLinkTest.class
+hero_test\MultipleWindowsTest.class
+hero_test\ImagesTest.class
+tasts\TestBase.class
+hero_test\DragAndDropTest.class
+hero_test\HoversTest.class
+hero_test\DropDownTest.class
+hero_test\HorizontalSliderTest.class
+hero_test\FileUploadTest.class
+hero_test\FrameTasts.class
+hero_test\AlertsTests.class
